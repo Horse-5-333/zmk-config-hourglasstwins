@@ -1,0 +1,16 @@
+if SHIELD_HOURGLASS_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Hourglass Twins"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_HOURGLASS_LEFT || SHIELD_HOURGLASS_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

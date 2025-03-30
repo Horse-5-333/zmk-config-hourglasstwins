@@ -1,0 +1,5 @@
+config SHIELD_HOURGLASS_LEFT
+    def_bool $(shields_list_contains,hourglass_left)
+
+config SHIELD_HOURGLASS_RIGHT
+    def_bool $(shields_list_contains,hourglass_right)
